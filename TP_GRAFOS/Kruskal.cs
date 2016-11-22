@@ -31,7 +31,7 @@ namespace TP_GRAFOS
                 {
                   T.edges.Add(e);
                   nIncluded++;
-                  edges.RemoveAt(0); // Remove as duas arestas do grafo original pois são paralelas
+                  edges.RemoveAt(0); // Remove aresta do grafo original pois são paralelas
                   
                 }
                 
